@@ -53,7 +53,7 @@ Evaluate the restaurant food ratings using MongoDB, NoSQL, database.
   longitude_max = longitude + degree_search
   longitude_min = longitude - degree_search
   
-  # Creating query and sort parameters
+  - Creating query and sort parameters
   
   query = {'RatingValue': 5, 
            'geocode.latitude': {'$gte': latitude_min, '$lte': latitude_max},
