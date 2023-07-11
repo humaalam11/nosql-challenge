@@ -37,15 +37,15 @@ Evaluate the restaurant food ratings using MongoDB, NoSQL, database.
   1) Find and change database
   2) Use query, sort and filter variables to split specific parameters
 **ex:**
- # Search within 0.01 degree on either side of the latitude and longitude.
-  # Rating value must equal 5
-  # Sort by hygiene score
+ - Search within 0.01 degree on either side of the latitude and longitude.
+ - Rating value must equal 5
+ - Sort by hygiene score
 
   degree_search = 0.01
   latitude = 51.10
   longitude = 1.18
   
-  # Defining Latitude and Longitude parameters:
+  - Defining Latitude and Longitude parameters:
   
   latitude_max = latitude + degree_search
   latitude_min = latitude - degree_search
