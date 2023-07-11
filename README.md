@@ -16,7 +16,9 @@ Evaluate the restaurant food ratings using MongoDB, NoSQL, database.
 **PART 2:  Update the Uploaded Database**
   1) Add in new information to the database for a new "halal" restaurant in Greenwich using MongoDB
   2) Data has a lot of files, this is an example of one looks like, and the fields it has:
+
   ![image](https://github.com/humaalam11/nosql-challenge/assets/130116747/19277ece-2786-43b3-82a5-53bd43d08739)
+  
   3) Update the informatiion of the new restaurant. Use update_one() or update_many() function
   4) Change datatype:
      ex: db.establishments.update_many(
